@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Toolbar for Navigation -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/visitor_entry_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:title="Visitor Entry"
+        android:titleTextColor="@android:color/white" />
+
+    <!-- Scrollable Layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Visitor Details -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visitor Entry Details"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/visitor_name_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Visitor Name"
+                android:padding="10dp"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/place_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Place"
+                android:padding="10dp"
+                android:inputType="textCapWords" />
+
+            <EditText
+                android:id="@+id/company_name_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Company Name"
+                android:padding="10dp"
+                android:inputType="textCapWords" />
+
+            <EditText
+                android:id="@+id/designation_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Designation"
+                android:padding="10dp"
+                android:inputType="textCapWords" />
+
+            <Spinner
+                android:id="@+id/visitor_type_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/visiting_purpose_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Visiting Purpose"
+                android:padding="10dp"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/visiting_staff_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Visiting Staff Portion"
+                android:padding="10dp"
+                android:inputType="textCapWords" />
+
+            <EditText
+                android:id="@+id/approver_name_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Approver Name"
+                android:padding="10dp"
+                android:inputType="textPersonName" />
+
+            <!-- Visiting Areas with Checkboxes -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visiting Areas"
+                android:textStyle="bold"
+                android:padding="8dp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_it_room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IT Room (Restricted Area)" />
+
+            <CheckBox
+                android:id="@+id/checkbox_reference_mail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reference Mail" />
+
+            <CheckBox
+                android:id="@+id/checkbox_prepress_room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prepress Room (Restricted Area)" />
+
+            <CheckBox
+                android:id="@+id/checkbox_dispatch_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dispatch Area (Restricted Area)" />
+
+            <CheckBox
+                android:id="@+id/checkbox_lpg_yard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LPG Yard (Restricted Area)" />
+
+            <CheckBox
+                android:id="@+id/checkbox_generator_room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Generator Room (Restricted Area)" />
+
+            <CheckBox
+                android:id="@+id/checkbox_chiller_room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chiller Room (Restricted Area)" />
+
+            <CheckBox
+                android:id="@+id/checkbox_compressor_room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Compressor Room (Restricted Area)" />
+
+            <CheckBox
+                android:id="@+id/checkbox_ctp_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CTP Area (Restricted Area)" />
+
+            <CheckBox
+                android:id="@+id/checkbox_electrical_room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Electrical Room Substation (Restricted Area)" />
+
+            <CheckBox
+                android:id="@+id/checkbox_etp_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ETP Area (Restricted Area)" />
+
+            <CheckBox
+                android:id="@+id/checkbox_wastage_chemical_storage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wastage Chemical Storage Area (Restricted Area)" />
+
+            <CheckBox
+                android:id="@+id/checkbox_blower_room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blower Room (Restricted Area)" />
+
+            <CheckBox
+                android:id="@+id/checkbox_acoro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ACORO (Regulated Area)" />
+
+            <CheckBox
+                android:id="@+id/checkbox_manual_binding_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Manual Binding Area (Regulated Area)" />
+
+            <CheckBox
+                android:id="@+id/checkbox_print_finish_area"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Print Finish Area (Regulated Area)" />
+
+            <CheckBox
+                android:id="@+id/checkbox_pms_warehouse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PMS Warehouse (Regulated Area)" />
+
+            <!-- Equipments Allowed Section -->
+            <TextView
+                android:id="@+id/equipments_allowed_label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Equipments Allowed"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <!-- Dynamic Equipment Rows -->
+            <EditText
+                android:id="@+id/equipment_name_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Equipment Name - Row 1"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/equipment_name_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Equipment Name - Row 2"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/equipment_name_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Equipment Name - Row 3"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/equipment_name_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Equipment Name - Row 4"
+                android:padding="10dp" />
+
+            <!-- Security Personnel Information -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Security Personnel Details"
+                android:textStyle="bold"
+                android:padding="8dp" />
+
+            <EditText
+                android:id="@+id/security_personnel_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Security Personnel Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/security_id_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Security ID"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ID Proof"
+                android:textStyle="bold"
+                android:padding="8dp" />
+
+            <Spinner
+                android:id="@+id/id_proof_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:prompt="@string/select_id_proof_prompt" />
+
+            <!-- File Upload Section -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Upload ID Proof"
+                android:textStyle="bold"
+                android:padding="8dp" />
+
+            <Button
+                android:id="@+id/upload_file_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose File"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:background="@color/design_default_color_primary"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily Visitors List"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:paddingBottom="10dp"/>
+
+        <!-- Visit Date From -->
+        <EditText
+            android:id="@+id/visitDateFrom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Visit Date From"
+            android:focusable="false"
+            android:drawableEnd="@android:drawable/ic_menu_today"
+            android:padding="10dp"/>
+
+        <!-- Visit Date To -->
+        <EditText
+            android:id="@+id/visitDateTo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Visit Date To"
+            android:focusable="false"
+            android:drawableEnd="@android:drawable/ic_menu_today"
+            android:padding="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <!-- Visitor Name -->
+        <EditText
+            android:id="@+id/visitorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Visitor Name"
+            android:padding="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <!-- Mobile No -->
+        <EditText
+            android:id="@+id/mobileNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile No"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <!-- Visitor Place -->
+        <EditText
+            android:id="@+id/visitorPlace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Visitor Place"
+            android:padding="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <!-- Visitor Company -->
+        <EditText
+            android:id="@+id/visitorCompany"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Visitor Company"
+            android:padding="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <!-- Visitor Type Dropdown -->
+        <Spinner
+            android:id="@+id/visitorTypeSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+        <!-- Visiting Staff/Person -->
+        <EditText
+            android:id="@+id/visitingStaff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Visiting Staff/Person"
+            android:padding="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <!-- Exit Status Dropdown -->
+        <Spinner
+            android:id="@+id/exitStatusSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+        <!-- Search Button -->
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Application Name -->
+    <string name="app_name">vms</string>
+
+    <!-- Toolbar -->
+    <string name="visitor_entry_toolbar_title">Visitor Entry</string>
+
+    <!-- Visitor Entry Details -->
+    <string name="visitor_entry_details">Visitor Entry Details</string>
+    <string name="visitor_name_hint">Visitor Name</string>
+    <string name="place_hint">Place</string>
+    <string name="company_name_hint">Company Name</string>
+    <string name="designation_hint">Designation</string>
+    <string name="visiting_purpose_hint">Visiting Purpose</string>
+    <string name="visiting_staff_hint">Visiting Staff Portion</string>
+    <string name="approver_name_hint">Approver Name</string>
+
+    <!-- Spinner Labels -->
+    <string name="visitor_type_prompt">Select Visitor Type</string>
+    <string name="id_proof_prompt">Select ID Proof</string>
+
+    <!-- Visiting Areas Section -->
+    <string name="visiting_areas_label">Visiting Areas (Check Restricted, Controlled, or Regulated Areas)</string>
+
+    <!-- Equipments Section -->
+    <string name="equipments_allowed_label">Equipments Allowed</string>
+    <string name="equipment_row_1_hint">Equipment Name - Row 1</string>
+    <string name="equipment_row_2_hint">Equipment Name - Row 2</string>
+    <string name="equipment_row_3_hint">Equipment Name - Row 3</string>
+    <string name="equipment_row_4_hint">Equipment Name - Row 4</string>
+
+    <!-- Security Personnel Details -->
+    <string name="security_personnel_details">Security Personnel Details</string>
+    <string name="security_personnel_name_hint">Security Personnel Name</string>
+    <string name="security_id_hint">Security ID</string>
+
+    <!-- Buttons -->
+    <string name="submit_button_text">Submit</string>
+
+    <!-- ID Proof Options -->
+    <string name="select_id_proof_prompt">Select ID Proof</string>
+    <string name="email_copy">Email Copy</string>
+    <string name="employee_id">Employee ID</string>
+    <string name="aadhaar_no">Aadhaar No.</string>
+    <string name="driving_license">Driving License</string>
+    <string name="voter_id">Voter ID</string>
+    <string name="passport">Passport</string>
+    <string name="pan_card">PAN Card</string>
+
+    <!-- Status Options -->
+    <string-array name="status_options">
+        <item>Active</item>
+        <item>Inactive</item>
+    </string-array>
+</resources>
