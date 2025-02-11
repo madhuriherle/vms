@@ -48,6 +48,10 @@
     <string name="passport">Passport</string>
     <string name="pan_card">PAN Card</string>
 
+
+
+    <string name="app_logo">YourAppLogoName</string>
+
     <!-- Status Options -->
     <string-array name="status_options">
         <item>Active</item>
