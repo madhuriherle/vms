@@ -71,6 +71,11 @@ public class MainActivity extends AppCompatActivity {
                     Intent companyMasterIntent = new Intent(MainActivity.this, CompanyMasterActivity.class);
                     startActivity(companyMasterIntent);
                     break;
+                case "Location Master":
+                    // Navigate to LocationMasterActivity
+                    Intent locationMasterIntent = new Intent(MainActivity.this, LocationMasterActivity.class);
+                    startActivity(locationMasterIntent);
+                    break;
 
 
 
