@@ -40,6 +40,8 @@
         <activity android:name=".DailyVisitorListActivity" />
         <activity android:name=".CompanyMasterActivity"/>
         <activity android:name=".AddCompanyActivity" />
+        <activity android:name=".LocationMasterActivity"/>
+        <activity android:name=".AddLocationActivity"/>
 
     </application>
 </manifest>
